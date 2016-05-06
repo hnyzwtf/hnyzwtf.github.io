@@ -6,8 +6,7 @@
     <entry>
       <title><![CDATA[test]]></title>
       <url>http://yoursite.com/2016/05/06/test/</url>
-      <content type="html"><![CDATA[<p>这仅仅是个测试</p>
-]]></content>
+      <content type="html"></content>
     </entry>
     
     <entry>
