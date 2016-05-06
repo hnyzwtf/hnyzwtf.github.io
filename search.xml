@@ -4,12 +4,6 @@
   
     
     <entry>
-      <title><![CDATA[test]]></title>
-      <url>http://yoursite.com/2016/05/06/test/</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[欢迎]]></title>
       <url>http://yoursite.com/2016/05/06/%E6%AC%A2%E8%BF%8E/</url>
       <content type="html"><![CDATA[<p>欢迎来到我的博客</p>
@@ -41,8 +35,7 @@
     <entry>
       <title><![CDATA[关于]]></title>
       <url>http://yoursite.com/about/index.html</url>
-      <content type="html"><![CDATA[<p>大家好，我是XXX。欢迎来到我的个人技术博客。</p>
-<p>这里用markdown写下你的简介，就跟平时写md一样就可以了。</p>
+      <content type="html"><![CDATA[<p>大家好，欢迎来到我的个人技术博客。想了解我的更多信息，请关注我的微博，github账号吧</p>
 ]]></content>
     </entry>
     
