@@ -4,6 +4,13 @@
   
     
     <entry>
+      <title><![CDATA[test]]></title>
+      <url>http://yoursite.com/2016/05/06/test/</url>
+      <content type="html"><![CDATA[<p>这仅仅是个测试</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[欢迎]]></title>
       <url>http://yoursite.com/2016/05/06/%E6%AC%A2%E8%BF%8E/</url>
       <content type="html"><![CDATA[<p>欢迎来到我的博客</p>
