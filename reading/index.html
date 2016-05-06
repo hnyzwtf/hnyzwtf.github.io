@@ -7,7 +7,7 @@
 
     
 
-    <title>读书 | </title>
+    <title>读书 | Tengfei&#39;s Blog</title>
     <meta name="author" content="Tengfei">
     
     
@@ -104,8 +104,8 @@
                 </div>
                 <div class="info col s8 valign-wrapper no-padding">
                     <div class="valign">
-                        <p class="name">你的大名</p>
-                        <p class="desc">Web前端/iOS/技术宅</p>
+                        <p class="name">Tengfei</p>
+                        <p class="desc">Android/Java/C++/科技控</p>
                     </div>
                 </div>
             </div>
@@ -364,6 +364,26 @@
         
 
 
+    <section id="comment">
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function() {
+                this.page.url = 'http://yoursite.com/reading/index.html';
+                this.page.identifier = 'reading/index.html';
+            };
+            (function() {
+                var d = document,
+                    s = d.createElement('script');
+                s.src = '//http://hnyzwtf.github.io/2016/05/06/hello-world/disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+        </noscript>
+    </section>
+
 
     
 </div>
@@ -387,11 +407,11 @@
             <div class="social-group col m3 s12">
                 <h5 class="white-text">社交</h5>
                 
-                    <a class="social-link" href="http://weibo.com/1956184117" target="_blank">
+                    <a class="social-link" href="http://weibo.com/u/2545826080" target="_blank">
                         <i class="fa fa-2x fa-weibo"></i>
                     </a>
                 
-                    <a class="social-link" href="https://github.com/raytaylorlin" target="_blank">
+                    <a class="social-link" href="https://github.com/hnyzwtf" target="_blank">
                         <i class="fa fa-2x fa-github"></i>
                     </a>
                 
@@ -506,7 +526,7 @@
 
             // 搜索功能
             $('.modal-trigger').leanModal();
-            var searchXml = "";
+            var searchXml = "search.xml";
             if (searchXml.length == 0) {
              	searchXml = "search.xml";
             }
