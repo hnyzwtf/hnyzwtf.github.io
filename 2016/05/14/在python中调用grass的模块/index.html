@@ -7,13 +7,17 @@
 
     
 
-    <title>标签1 | Tengfei&#39;s Blog</title>
+    <title>在python中调用grass中的模块 | Tengfei&#39;s Blog</title>
     <meta name="author" content="Tengfei">
+    
+    <meta name="description" content="在安装好grass之后，只需设置如下的环境变量，便可在python中调用grass中的模块功能：
+GISBASE= D:\Program Files (x86)\GRASS GIS 7.0.svn
+PATH=%GISBASE%\etc;%GISBASE%\etc\python;%GISBASE%\l">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="在python中调用grass中的模块"/>
     <meta property="og:site_name" content="Tengfei Blog"/>
 
     
@@ -223,30 +227,121 @@
 
     <main>
         <div class="container main-container">
-    
-
-<nav class="page-nav hide-on-small-only">
+    <nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">Current page(Tags)</span>
+        <span class="breadcrumb">Current page(Categories)</span>
         
+            
+    
+    
+    <a class="breadcrumb" href="/categories/GIS/">GIS</a><a class="breadcrumb" href="/categories/GIS/GRASS/">GRASS</a>
+
 
         
-            <a class="breadcrumb" href="/tags/标签1/">标签1</a>
+
         
     </div>
 </nav>
 
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>在python中调用grass中的模块</h1>
+    
 
 
-    <div class="collection mt-0">
+            </div>
+            <time class="pink-link-context" datetime="2016-05-14T14:17:03.000Z"><a href="/2016/05/14/在python中调用grass的模块/">2016-05-14</a></time>
+
+            
+    <div class="tags-row">
         
-            <a href="/2016/05/06/欢迎/" class="collection-item grey-text text-darken-1">
-                <time datetime="2016-05-06T07:07:03.000Z">2016-05-06</time>
-                <span>&nbsp;&nbsp;&nbsp;</span>
-                欢迎
-            </a>
+            <a href="/tags/GRASS/" class="chip pink lighten-1">GRASS</a>
+        
+            <a href="/tags/python/" class="chip pink lighten-1">python</a>
         
     </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <p>在安装好grass之后，只需设置如下的环境变量，便可在python中调用grass中的模块功能：</p>
+<pre><code>GISBASE= D:\Program Files (x86)\GRASS GIS 7.0.svn
+PATH=%GISBASE%\etc;%GISBASE%\etc\python;%GISBASE%\lib;%GISBASE%\bin;%GISBASE%\extrabin;C:\Python27\ArcGIS10.1;%GISBASE%\scripts;%GISBASE%\msys\bin;%GISBASE%\Python27\lib
+LD_LIBRARY_PATH= %GISBASE%\lib
+PYTHONPATH= %GISBASE%\etc\python
+PYTHONLIB= C:\Python27\ArcGIS10.1
+GRASS_SH= %GISBASE%\msys\bin\sh.exe
+</code></pre><p>示例Python程序如下：</p>
+<pre><code>import sys
+import os
+import grass.script as grass
+
+kk = r&quot;E:\Exercise\test\grasstest\dem2.tif&quot;
+r = grass.run_command(&apos;r.in.gdal&apos;,
+                  flags=&apos;o&apos;,
+                  input=kk,
+                  output=&quot;mm&quot;,
+                  overwrite=True)
+print r
+r = grass.run_command(&quot;g.region&quot;, rast=&quot;mm&quot;)
+print r
+</code></pre><p>但是我们需要注意的几个问题：</p>
+<ol>
+<li>目前grass官网上能下载的最新版本的wingrass（Stand-alone Installer） 版本为7.0.4，<a href="https://grass.osgeo.org/download/software/ms-windows/" title="https://grass.osgeo.org/download/software/ms-windows/" target="_blank" rel="external">https://grass.osgeo.org/download/software/ms-windows/</a>，但是安装之后安装目录下没有文件夹msys，因此环境变量中凡是与msys有关的无法进行设置。本文的解决办法是下载一个旧版本的grass即可，我用的是WinGRASS-7.0.svn版。</li>
+<li>有时候在安装旧版本的grass（指的是7.0.3之前的版本）后，启动时会报错。如下图：</li>
+</ol>
+<p><img src="http://i.imgur.com/4aP9Vv3.jpg" alt=""></p>
+<p>第一幅图是启动时报错，然后根据提示在grass的cmd中运行命令g.region，又报错：g.region.exe无法找到入口，此时的解决办法是</p>
+<blockquote>
+<p>The issue is caused by different sqlite3.dll files accessible “on path” to all application. In case of GRASS GIS, some incompatible sqlite3 DLL is picked up by the system rather than using the correct one shipped with GRASS GIS.</p>
+<p>Solution: search for all sqlite3.dll files on your computer and remove rename them one by one while trying at the same time to start GRASS GIS successfully. Note that removing some of the other sqlite3.dll files may break the applications which use them (say, while this is possible it has never actually been reported by any user). So, it is a good idea to just rename the DLL file in case you discover that another application needs that particular sqlite3 DLL and you have to reverse the process.</p>
+</blockquote>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+    <section id="comment">
+        <div class="card">
+            <div class="card-content">
+                <!-- Duoshuo Comment BEGIN -->
+                <div class="ds-thread" data-thread-key="2016/05/14/在python中调用grass的模块/" data-title="在python中调用grass中的模块" data-url="http://yoursite.com/2016/05/14/在python中调用grass的模块/"></div>
+
+                <script type="text/javascript">
+                    console.log(document.querySelector('.ds-thread'));
+                    var duoshuoQuery = {
+                        short_name: 'tengfei123'
+                    };
+                    (function() {
+                        var ds = document.createElement('script');
+                        ds.type = 'text/javascript';
+                        ds.async = true;
+                        ds.src = (document.location.protocol == 'https:'
+                            ? 'https:'
+                            : 'http:') + '//static.duoshuo.com/embed.js';
+                        ds.charset = 'UTF-8';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                    })();
+                </script>
+                <!-- Duoshuo Comment END -->
+            </div>
+        </div>
+    </section>
+
 
 
 </div>

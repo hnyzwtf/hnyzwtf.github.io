@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title><![CDATA[在python中调用grass中的模块]]></title>
+      <url>http://yoursite.com/2016/05/14/%E5%9C%A8python%E4%B8%AD%E8%B0%83%E7%94%A8grass%E7%9A%84%E6%A8%A1%E5%9D%97/</url>
+      <content type="html"><![CDATA[<p>在安装好grass之后，只需设置如下的环境变量，便可在python中调用grass中的模块功能：</p>
+<pre><code>GISBASE= D:\Program Files (x86)\GRASS GIS 7.0.svn
+PATH=%GISBASE%\etc;%GISBASE%\etc\python;%GISBASE%\lib;%GISBASE%\bin;%GISBASE%\extrabin;C:\Python27\ArcGIS10.1;%GISBASE%\scripts;%GISBASE%\msys\bin;%GISBASE%\Python27\lib
+LD_LIBRARY_PATH= %GISBASE%\lib
+PYTHONPATH= %GISBASE%\etc\python
+PYTHONLIB= C:\Python27\ArcGIS10.1
+GRASS_SH= %GISBASE%\msys\bin\sh.exe
+</code></pre><p>示例Python程序如下：</p>
+<pre><code>import sys
+import os
+import grass.script as grass
+
+kk = r&quot;E:\Exercise\test\grasstest\dem2.tif&quot;
+r = grass.run_command(&apos;r.in.gdal&apos;,
+                  flags=&apos;o&apos;,
+                  input=kk,
+                  output=&quot;mm&quot;,
+                  overwrite=True)
+print r
+r = grass.run_command(&quot;g.region&quot;, rast=&quot;mm&quot;)
+print r
+</code></pre><p>但是我们需要注意的几个问题：</p>
+<ol>
+<li>目前grass官网上能下载的最新版本的wingrass（Stand-alone Installer） 版本为7.0.4，<a href="https://grass.osgeo.org/download/software/ms-windows/" title="https://grass.osgeo.org/download/software/ms-windows/" target="_blank" rel="external">https://grass.osgeo.org/download/software/ms-windows/</a>，但是安装之后安装目录下没有文件夹msys，因此环境变量中凡是与msys有关的无法进行设置。本文的解决办法是下载一个旧版本的grass即可，我用的是WinGRASS-7.0.svn版。</li>
+<li>有时候在安装旧版本的grass（指的是7.0.3之前的版本）后，启动时会报错。如下图：</li>
+</ol>
+<p><img src="http://i.imgur.com/4aP9Vv3.jpg" alt=""></p>
+<p>第一幅图是启动时报错，然后根据提示在grass的cmd中运行命令g.region，又报错：g.region.exe无法找到入口，此时的解决办法是</p>
+<blockquote>
+<p>The issue is caused by different sqlite3.dll files accessible “on path” to all application. In case of GRASS GIS, some incompatible sqlite3 DLL is picked up by the system rather than using the correct one shipped with GRASS GIS.</p>
+<p>Solution: search for all sqlite3.dll files on your computer and remove rename them one by one while trying at the same time to start GRASS GIS successfully. Note that removing some of the other sqlite3.dll files may break the applications which use them (say, while this is possible it has never actually been reported by any user). So, it is a good idea to just rename the DLL file in case you discover that another application needs that particular sqlite3 DLL and you have to reverse the process.</p>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[欢迎]]></title>
       <url>http://yoursite.com/2016/05/06/%E6%AC%A2%E8%BF%8E/</url>
       <content type="html"><![CDATA[<p>欢迎来到我的博客</p>
@@ -33,16 +71,16 @@
   
     
     <entry>
+      <title><![CDATA[读书]]></title>
+      <url>http://yoursite.com/reading/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>http://yoursite.com/about/index.html</url>
       <content type="html"><![CDATA[<p>大家好，欢迎来到我的个人技术博客。想了解我的更多信息，请关注我的微博，github账号吧</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[读书]]></title>
-      <url>http://yoursite.com/reading/index.html</url>
-      <content type="html"></content>
     </entry>
     
   
