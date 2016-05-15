@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-14T14:50:02.204Z</updated>
+  <updated>2016-05-15T01:58:25.648Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/05/14/%E5%9C%A8python%E4%B8%AD%E8%B0%83%E7%94%A8grass%E7%9A%84%E6%A8%A1%E5%9D%97/"/>
     <id>http://yoursite.com/2016/05/14/在python中调用grass的模块/</id>
     <published>2016-05-14T14:17:03.000Z</published>
-    <updated>2016-05-14T14:50:02.204Z</updated>
+    <updated>2016-05-15T01:58:25.648Z</updated>
     
     <content type="html">&lt;p&gt;在安装好grass之后，只需设置如下的环境变量，便可在python中调用grass中的模块功能：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;GISBASE= D:\Program Files (x86)\GRASS GIS 7.0.svn
@@ -49,7 +49,7 @@ print r
 &lt;li&gt;有时候在安装旧版本的grass（指的是7.0.3之前的版本）后，启动时会报错。如下图：&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/4aP9Vv3.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;第一幅图是启动时报错，然后根据提示在grass的cmd中运行命令g.region，又报错：g.region.exe无法找到入口，此时的解决办法是&lt;/p&gt;
+&lt;p&gt;第一幅图是启动grass时报错 unable to get current geographic extent. Force quiting wxGUI.，然后根据提示在grass的cmd中运行命令g.region，又报错：g.region.exe无法找到入口，无法定位程序输入点sqlite3_prepare_v2于动态链接库sqlite3.dll上。此时的解决办法是&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The issue is caused by different sqlite3.dll files accessible “on path” to all application. In case of GRASS GIS, some incompatible sqlite3 DLL is picked up by the system rather than using the correct one shipped with GRASS GIS.&lt;/p&gt;
 &lt;p&gt;Solution: search for all sqlite3.dll files on your computer and remove rename them one by one while trying at the same time to start GRASS GIS successfully. Note that removing some of the other sqlite3.dll files may break the applications which use them (say, while this is possible it has never actually been reported by any user). So, it is a good idea to just rename the DLL file in case you discover that another application needs that particular sqlite3 DLL and you have to reverse the process.&lt;/p&gt;

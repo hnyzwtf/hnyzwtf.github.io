@@ -33,7 +33,7 @@ print r
 <li>有时候在安装旧版本的grass（指的是7.0.3之前的版本）后，启动时会报错。如下图：</li>
 </ol>
 <p><img src="http://i.imgur.com/4aP9Vv3.jpg" alt=""></p>
-<p>第一幅图是启动时报错，然后根据提示在grass的cmd中运行命令g.region，又报错：g.region.exe无法找到入口，此时的解决办法是</p>
+<p>第一幅图是启动grass时报错 unable to get current geographic extent. Force quiting wxGUI.，然后根据提示在grass的cmd中运行命令g.region，又报错：g.region.exe无法找到入口，无法定位程序输入点sqlite3_prepare_v2于动态链接库sqlite3.dll上。此时的解决办法是</p>
 <blockquote>
 <p>The issue is caused by different sqlite3.dll files accessible “on path” to all application. In case of GRASS GIS, some incompatible sqlite3 DLL is picked up by the system rather than using the correct one shipped with GRASS GIS.</p>
 <p>Solution: search for all sqlite3.dll files on your computer and remove rename them one by one while trying at the same time to start GRASS GIS successfully. Note that removing some of the other sqlite3.dll files may break the applications which use them (say, while this is possible it has never actually been reported by any user). So, it is a good idea to just rename the DLL file in case you discover that another application needs that particular sqlite3 DLL and you have to reverse the process.</p>
@@ -71,16 +71,16 @@ print r
   
     
     <entry>
-      <title><![CDATA[读书]]></title>
-      <url>http://yoursite.com/reading/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>http://yoursite.com/about/index.html</url>
       <content type="html"><![CDATA[<p>大家好，欢迎来到我的个人技术博客。想了解我的更多信息，请关注我的微博，github账号吧</p>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[读书]]></title>
+      <url>http://yoursite.com/reading/index.html</url>
+      <content type="html"></content>
     </entry>
     
   
