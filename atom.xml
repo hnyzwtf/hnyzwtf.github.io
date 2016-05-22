@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-21T03:20:55.089Z</updated>
+  <updated>2016-05-22T13:43:50.504Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo博客配置注意事项</title>
+    <link href="http://yoursite.com/2016/05/22/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <id>http://yoursite.com/2016/05/22/hexo博客配置注意事项/</id>
+    <published>2016-05-22T13:25:04.000Z</published>
+    <updated>2016-05-22T13:43:50.504Z</updated>
+    
+    <content type="html">&lt;p&gt;####让某些文件不被hexo渲染&lt;/p&gt;
+&lt;p&gt;当我们在为我们的博客提交到百度或者谷歌搜索时，第一步便是在百度站长平台或者google search console中添加并验证我们的网站，我们选择下载html文件的方式进行验证。即下载baidu_verify_hu7LcmdtsJ.html和googlebab4ebb8b7887c15.html这两个文件，并将其放置于source目录下：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/XBG4USM.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;接着在hexo博客的配置文件_config.yml中找到skip_render添加如下代码：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;skip_render:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ss-s&amp;apos;googlebab4ebb8b7887c15.html&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ss-s&amp;apos;baidu_verify_hu7LcmdtsJ.html&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;需要注意的是上面的s表示一个空格，两个s表示两个空格，为了强调，将空格用s来表示，添加的时候将s变为空格即可。更多关于skip_render的用法参考：&lt;a href=&quot;http://luopq.com/2016/01/17/hexo-tips/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo技巧收集 - 不定期更新&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;####将购买的域名与博客绑定&lt;/p&gt;
+&lt;p&gt;在hexo\source目录下新建一个名为CNAME的文件，注意，这个文件没有后缀。用记事本编辑，在文件内键入你刚刚购买的域名即可，如www.tengfei.science。更多内容参考：&lt;a href=&quot;http://www.gravel.club/2016/04/22/parked_domains/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;将发布在github上的博客与域名进行绑定&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;####让某些文件不被hexo渲染&lt;/p&gt;
+&lt;p&gt;当我们在为我们的博客提交到百度或者谷歌搜索时，第一步便是在百度站长平台或者google search console中添加并验证我们的网站，我们选择下载html文件的方式进行验证。即下载baidu_verify_hu7Lcm
+    
+    </summary>
+    
+      <category term="生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="其他" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="hexo博客配置" scheme="http://yoursite.com/tags/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>Android导出Kml</title>
@@ -115,20 +148,25 @@ PATH=%GISBASE%\etc;%GIS
     <link href="http://yoursite.com/2016/05/06/%E6%AC%A2%E8%BF%8E/"/>
     <id>http://yoursite.com/2016/05/06/欢迎/</id>
     <published>2016-05-06T07:07:03.000Z</published>
-    <updated>2016-05-21T03:21:32.976Z</updated>
+    <updated>2016-05-22T13:24:22.641Z</updated>
     
     <content type="html">&lt;p&gt;欢迎来到我的博客&lt;/p&gt;
 &lt;p&gt;搭建博客参考网址：&lt;/p&gt;
-&lt;p&gt;1 &lt;a href=&quot;https://github.com/raytaylorlin/hexo-theme-raytaylorism&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/raytaylorlin/hexo-theme-raytaylorism&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2 &lt;a href=&quot;http://opiece.me/2015/04/09/hexo-guide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://opiece.me/2015/04/09/hexo-guide/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3 &lt;a href=&quot;http://blog.csdn.net/lmj623565791/article/details/51319147#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/lmj623565791/article/details/51319147#rd&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/raytaylorlin/hexo-theme-raytaylorism&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;raytaylorism主题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://opiece.me/2015/04/09/hexo-guide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用Hexo搭建个人博客(基于hexo3.0)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/lmj623565791/article/details/51319147#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何利用github打造博客专属域名&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/619dab2d3c08#&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo干货系列：（六）hexo提交搜索引擎（百度+谷歌）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.gravel.club/2016/04/22/parked_domains/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;将发布在github上的博客与域名进行绑定&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;欢迎来到我的博客&lt;/p&gt;
 &lt;p&gt;搭建博客参考网址：&lt;/p&gt;
-&lt;p&gt;1 &lt;a href=&quot;https://github.com/raytaylorlin/hexo-theme-raytaylorism&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/raytaylorlin/hexo-theme-raytaylorism&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;r
     
     </summary>
     
@@ -138,33 +176,6 @@ PATH=%GISBASE%\etc;%GIS
     
     
       <category term="欢迎" scheme="http://yoursite.com/tags/%E6%AC%A2%E8%BF%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/05/06/hello-world/"/>
-    <id>http://yoursite.com/2016/05/06/hello-world/</id>
-    <published>2016-05-06T02:54:52.869Z</published>
-    <updated>2016-05-06T02:54:52.872Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
     
   </entry>
   

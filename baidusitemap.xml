@@ -4,8 +4,31 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/05/22/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</loc>
+    <lastmod>2016-05-22T13:43:50.504Z</lastmod>
+    <data>
+        <display>
+        <title>hexo博客配置注意事项</title>
+        <pubTime>2016-05-22T13:25:04.000Z</pubTime>
+        
+        <tag>hexo博客配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活" url="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+          
+             
+              <breadCrumb title="其他" url="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/%E5%85%B6%E4%BB%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/05/06/%E6%AC%A2%E8%BF%8E/</loc>
-    <lastmod>2016-05-21T03:21:32.976Z</lastmod>
+    <lastmod>2016-05-22T13:24:22.641Z</lastmod>
     <data>
         <display>
         <title>欢迎</title>
@@ -77,19 +100,4 @@
 
     
     
-    
-  <url>
-    <loc>http://yoursite.com/2016/05/06/hello-world/</loc>
-    <lastmod>2016-05-06T02:54:52.872Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2016-05-06T02:54:52.869Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
