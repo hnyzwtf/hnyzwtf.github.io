@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[hexo博客配置注意事项]]></title>
-      <url>http://yoursite.com/2016/05/22/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+      <url>http://tengfei.science/2016/05/22/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
       <content type="html"><![CDATA[<h4 id="让某些文件不被hexo渲染"><a href="#让某些文件不被hexo渲染" class="headerlink" title="让某些文件不被hexo渲染"></a>让某些文件不被hexo渲染</h4><p>当我们在为我们的博客提交到百度或者谷歌搜索时，第一步便是在百度站长平台或者google search console中添加并验证我们的网站，我们选择下载html文件的方式进行验证。即下载baidu_verify_hu7LcmdtsJ.html和googlebab4ebb8b7887c15.html这两个文件，并将其放置于source目录下：</p>
 <p><img src="http://i.imgur.com/XBG4USM.jpg" alt=""></p>
 <p>接着在hexo博客的配置文件_config.yml中找到skip_render添加如下代码：</p>
@@ -17,7 +17,7 @@
     
     <entry>
       <title><![CDATA[Android导出Kml]]></title>
-      <url>http://yoursite.com/2016/05/21/Android%E5%AF%BC%E5%87%BAKml/</url>
+      <url>http://tengfei.science/2016/05/21/Android%E5%AF%BC%E5%87%BAKml/</url>
       <content type="html"><![CDATA[<p>转载请注明出处:<a href="http://www.tengfei.science/2016/05/21/Android%E5%AF%BC%E5%87%BAKml/" target="_blank" rel="external">http://www.tengfei.science/2016/05/21/Android%E5%AF%BC%E5%87%BAKml/</a></p>
 <p>请先阅读：</p>
 <ul>
@@ -32,7 +32,7 @@
     
     <entry>
       <title><![CDATA[在python中调用grass中的模块]]></title>
-      <url>http://yoursite.com/2016/05/14/%E5%9C%A8python%E4%B8%AD%E8%B0%83%E7%94%A8grass%E7%9A%84%E6%A8%A1%E5%9D%97/</url>
+      <url>http://tengfei.science/2016/05/14/%E5%9C%A8python%E4%B8%AD%E8%B0%83%E7%94%A8grass%E7%9A%84%E6%A8%A1%E5%9D%97/</url>
       <content type="html"><![CDATA[<p>在安装好grass之后，只需设置如下的环境变量，便可在python中调用grass中的模块功能：</p>
 <pre><code>GISBASE= D:\Program Files (x86)\GRASS GIS 7.0.svn
 PATH=%GISBASE%\etc;%GISBASE%\etc\python;%GISBASE%\lib;%GISBASE%\bin;%GISBASE%\extrabin;C:\Python27\ArcGIS10.1;%GISBASE%\scripts;%GISBASE%\msys\bin;%GISBASE%\Python27\lib
@@ -70,7 +70,7 @@ print r
     
     <entry>
       <title><![CDATA[欢迎]]></title>
-      <url>http://yoursite.com/2016/05/06/%E6%AC%A2%E8%BF%8E/</url>
+      <url>http://tengfei.science/2016/05/06/%E6%AC%A2%E8%BF%8E/</url>
       <content type="html"><![CDATA[<p>欢迎来到我的博客</p>
 <p>搭建博客参考网址：</p>
 <ul>
@@ -88,14 +88,14 @@ print r
     
     <entry>
       <title><![CDATA[关于]]></title>
-      <url>http://yoursite.com/about/index.html</url>
+      <url>http://tengfei.science/about/index.html</url>
       <content type="html"><![CDATA[<p>大家好，欢迎来到我的个人技术博客。想了解我的更多信息，请关注我的微博，github账号吧</p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[读书]]></title>
-      <url>http://yoursite.com/reading/index.html</url>
+      <url>http://tengfei.science/reading/index.html</url>
       <content type="html"></content>
     </entry>
     
