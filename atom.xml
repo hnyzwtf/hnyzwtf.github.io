@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengfei.science/"/>
-  <updated>2016-05-31T12:54:12.311Z</updated>
+  <updated>2016-05-31T12:56:33.126Z</updated>
   <id>http://tengfei.science/</id>
   
   <author>
@@ -20,17 +20,15 @@
     <link href="http://tengfei.science/2016/05/31/help/"/>
     <id>http://tengfei.science/2016/05/31/help/</id>
     <published>2016-05-31T12:38:03.000Z</published>
-    <updated>2016-05-31T12:54:12.311Z</updated>
+    <updated>2016-05-31T12:56:33.126Z</updated>
     
-    <content type="html">&lt;p&gt;####相似度计算&lt;/p&gt;
-&lt;ol&gt;
+    <content type="html">&lt;h4 id=&quot;相似度计算&quot;&gt;&lt;a href=&quot;#相似度计算&quot; class=&quot;headerlink&quot; title=&quot;相似度计算&quot;&gt;&lt;/a&gt;相似度计算&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;点击更多–采样方法选择–相似度采样&lt;/li&gt;
 &lt;li&gt;点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可&lt;/li&gt;
 &lt;li&gt;点击功能–添加样点数据–点击相应的kmz文件&lt;/li&gt;
 &lt;li&gt;返回至地图主界面，点击某个样点，点击弹出的infowindow，进入样点详情界面，点击计算可替代样点，进入参数设置界面，输入相应的参数，点击确定按钮，等待片刻，系统提示“可替代样点计算成功，请返回地图界面查看”。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;####FCM计算&lt;/p&gt;
-&lt;ol&gt;
+&lt;h4 id=&quot;FCM计算&quot;&gt;&lt;a href=&quot;#FCM计算&quot; class=&quot;headerlink&quot; title=&quot;FCM计算&quot;&gt;&lt;/a&gt;FCM计算&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;点击更多–采样方法选择–FCM采样&lt;/li&gt;
 &lt;li&gt;点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可&lt;/li&gt;
 &lt;li&gt;点击功能–添加样点数据–点击相应的kmz文件&lt;/li&gt;
@@ -42,12 +40,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;####相似度计算&lt;/p&gt;
-&lt;ol&gt;
+      &lt;h4 id=&quot;相似度计算&quot;&gt;&lt;a href=&quot;#相似度计算&quot; class=&quot;headerlink&quot; title=&quot;相似度计算&quot;&gt;&lt;/a&gt;相似度计算&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;点击更多–采样方法选择–相似度采样&lt;/li&gt;
-&lt;li&gt;点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可&lt;/li&gt;
-&lt;li&gt;点击功能–添加样点数据–点击相应的kmz文件&lt;/li&gt;
-&lt;li&gt;返回至地图主界面，点
+&lt;li&gt;点击功能–环境因子选择–选择相应的环境因子，选择完
     
     </summary>
     

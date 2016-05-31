@@ -6,15 +6,13 @@
     <entry>
       <title><![CDATA[help]]></title>
       <url>http://tengfei.science/2016/05/31/help/</url>
-      <content type="html"><![CDATA[<p>####相似度计算</p>
-<ol>
+      <content type="html"><![CDATA[<h4 id="相似度计算"><a href="#相似度计算" class="headerlink" title="相似度计算"></a>相似度计算</h4><ol>
 <li>点击更多–采样方法选择–相似度采样</li>
 <li>点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可</li>
 <li>点击功能–添加样点数据–点击相应的kmz文件</li>
 <li>返回至地图主界面，点击某个样点，点击弹出的infowindow，进入样点详情界面，点击计算可替代样点，进入参数设置界面，输入相应的参数，点击确定按钮，等待片刻，系统提示“可替代样点计算成功，请返回地图界面查看”。</li>
 </ol>
-<p>####FCM计算</p>
-<ol>
+<h4 id="FCM计算"><a href="#FCM计算" class="headerlink" title="FCM计算"></a>FCM计算</h4><ol>
 <li>点击更多–采样方法选择–FCM采样</li>
 <li>点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可</li>
 <li>点击功能–添加样点数据–点击相应的kmz文件</li>
