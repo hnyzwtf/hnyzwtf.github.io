@@ -171,22 +171,6 @@
             
 
             <li class="collapse-level-0" collapse-level="0">
-                <a class="no-padding" href="/categories/编程/">
-                    编程 <span class="right">1 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-1" collapse-level="1">
-                <a class="no-padding" href="/categories/编程/Android/">
-                    Android <span class="right">1 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/生活/">
                     生活 <span class="right">3 篇</span></a>
                 </a>
@@ -197,6 +181,22 @@
             <li class="collapse-level-1" collapse-level="1">
                 <a class="no-padding" href="/categories/生活/其他/">
                     其他 <span class="right">3 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/编程/">
+                    编程 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/编程/Android/">
+                    Android <span class="right">1 篇</span></a>
                 </a>
             </li>
 
@@ -290,7 +290,8 @@
 <li>点击更多–采样方法选择–相似度采样</li>
 <li>点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可</li>
 <li>点击功能–添加样点数据–点击相应的kmz文件</li>
-<li>返回至地图主界面，点击某个样点，点击弹出的infowindow，进入样点详情界面，点击计算可替代样点，进入参数设置界面，输入相应的参数，点击确定按钮，等待片刻，系统提示“可替代样点计算成功，请返回地图界面查看”。</li>
+<li>返回至地图主界面，点击某个样点，点击弹出的infowindow，进入样点详情界面，点击计算可替代样点，进入参数设置界面，此页面共有4个参数，第一个是不可采点的经纬度坐标，第二个是计算所有栅格点对不可采点的相似度时的相似度阈值，第三个也是一个相似度阈值，默认值是0.9，表示只要是与不可采点相似度大于0.9的都是候选样点，第四个是距离设置，默认是1000米，表示只选择距离不可采点在1000米之内的候选样点</li>
+<li>输入相应的参数，点击确定按钮，等待片刻，系统提示“可替代样点计算成功，请返回地图界面查看”。</li>
 </ol>
 <h4 id="FCM计算"><a href="#FCM计算" class="headerlink" title="FCM计算"></a>FCM计算</h4><ol>
 <li>点击更多–采样方法选择–FCM采样</li>
@@ -298,7 +299,7 @@
 <li>点击功能–添加样点数据–点击相应的kmz文件</li>
 <li>点击功能–FCM聚类，设置相关参数即可进行FCM聚类计算，不过不推荐这样做，主要是计算太慢，且服务器程序在执行FCM聚类计算时内存占用会特别高</li>
 <li>进行FCM聚类计算之后便生成了模糊隶属度图，点击功能–模糊隶属度图层选择–选择相应的模糊隶属度图层即可，这里我们已经事先准备好了一个隶属度图像class8.tif，直接选择即可</li>
-<li>同相似度计算栏目下的步骤4</li>
+<li>返回至地图主界面，点击某个样点，点击弹出的infowindow，进入样点详情界面，点击计算可替代样点，进入参数设置界面，此页面共有3个参数，第一个是不可采点的经纬度坐标，第二个是隶属度差值阈值，默认值为0.02，表示若某栅格点的隶属度值与不可采点的隶属度值之差小于0.02，则此栅格点便作为候选样点，第四个是距离设置，默认是1000米，表示只选择距离不可采点在1000米之内的候选样点</li>
 </ol>
 
             </div>
