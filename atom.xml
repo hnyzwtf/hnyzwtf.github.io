@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengfei.science/"/>
-  <updated>2016-05-22T13:56:03.568Z</updated>
+  <updated>2016-05-31T12:54:12.311Z</updated>
   <id>http://tengfei.science/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>help</title>
+    <link href="http://tengfei.science/2016/05/31/help/"/>
+    <id>http://tengfei.science/2016/05/31/help/</id>
+    <published>2016-05-31T12:38:03.000Z</published>
+    <updated>2016-05-31T12:54:12.311Z</updated>
+    
+    <content type="html">&lt;p&gt;####相似度计算&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击更多–采样方法选择–相似度采样&lt;/li&gt;
+&lt;li&gt;点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可&lt;/li&gt;
+&lt;li&gt;点击功能–添加样点数据–点击相应的kmz文件&lt;/li&gt;
+&lt;li&gt;返回至地图主界面，点击某个样点，点击弹出的infowindow，进入样点详情界面，点击计算可替代样点，进入参数设置界面，输入相应的参数，点击确定按钮，等待片刻，系统提示“可替代样点计算成功，请返回地图界面查看”。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;####FCM计算&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击更多–采样方法选择–FCM采样&lt;/li&gt;
+&lt;li&gt;点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可&lt;/li&gt;
+&lt;li&gt;点击功能–添加样点数据–点击相应的kmz文件&lt;/li&gt;
+&lt;li&gt;点击功能–FCM聚类，设置相关参数即可进行FCM聚类计算，不过不推荐这样做，主要是计算太慢，且服务器程序在执行FCM聚类计算时内存占用会特别高&lt;/li&gt;
+&lt;li&gt;进行FCM聚类计算之后便生成了模糊隶属度图，点击功能–模糊隶属度图层选择–选择相应的模糊隶属度图层即可，这里我们已经事先准备好了一个隶属度图像class8.tif，直接选择即可&lt;/li&gt;
+&lt;li&gt;同相似度计算栏目下的步骤4&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;####相似度计算&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击更多–采样方法选择–相似度采样&lt;/li&gt;
+&lt;li&gt;点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可&lt;/li&gt;
+&lt;li&gt;点击功能–添加样点数据–点击相应的kmz文件&lt;/li&gt;
+&lt;li&gt;返回至地图主界面，点
+    
+    </summary>
+    
+      <category term="生活" scheme="http://tengfei.science/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="其他" scheme="http://tengfei.science/categories/%E7%94%9F%E6%B4%BB/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="help" scheme="http://tengfei.science/tags/help/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo博客配置注意事项</title>

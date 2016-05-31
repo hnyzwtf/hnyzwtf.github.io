@@ -4,6 +4,28 @@
   
     
     <entry>
+      <title><![CDATA[help]]></title>
+      <url>http://tengfei.science/2016/05/31/help/</url>
+      <content type="html"><![CDATA[<p>####相似度计算</p>
+<ol>
+<li>点击更多–采样方法选择–相似度采样</li>
+<li>点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可</li>
+<li>点击功能–添加样点数据–点击相应的kmz文件</li>
+<li>返回至地图主界面，点击某个样点，点击弹出的infowindow，进入样点详情界面，点击计算可替代样点，进入参数设置界面，输入相应的参数，点击确定按钮，等待片刻，系统提示“可替代样点计算成功，请返回地图界面查看”。</li>
+</ol>
+<p>####FCM计算</p>
+<ol>
+<li>点击更多–采样方法选择–FCM采样</li>
+<li>点击功能–环境因子选择–选择相应的环境因子，选择完毕之后直接点返回即可</li>
+<li>点击功能–添加样点数据–点击相应的kmz文件</li>
+<li>点击功能–FCM聚类，设置相关参数即可进行FCM聚类计算，不过不推荐这样做，主要是计算太慢，且服务器程序在执行FCM聚类计算时内存占用会特别高</li>
+<li>进行FCM聚类计算之后便生成了模糊隶属度图，点击功能–模糊隶属度图层选择–选择相应的模糊隶属度图层即可，这里我们已经事先准备好了一个隶属度图像class8.tif，直接选择即可</li>
+<li>同相似度计算栏目下的步骤4</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[hexo博客配置注意事项]]></title>
       <url>http://tengfei.science/2016/05/22/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
       <content type="html"><![CDATA[<h4 id="让某些文件不被hexo渲染"><a href="#让某些文件不被hexo渲染" class="headerlink" title="让某些文件不被hexo渲染"></a>让某些文件不被hexo渲染</h4><p>当我们在为我们的博客提交到百度或者谷歌搜索时，第一步便是在百度站长平台或者google search console中添加并验证我们的网站，我们选择下载html文件的方式进行验证。即下载baidu_verify_hu7LcmdtsJ.html和googlebab4ebb8b7887c15.html这两个文件，并将其放置于source目录下：</p>
