@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengfei.science/"/>
-  <updated>2016-05-31T14:27:14.717Z</updated>
+  <updated>2016-06-07T08:09:35.265Z</updated>
   <id>http://tengfei.science/</id>
   
   <author>
@@ -14,6 +14,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android Studio快捷键</title>
+    <link href="http://tengfei.science/2016/06/07/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://tengfei.science/2016/06/07/Android Studio快捷键/</id>
+    <published>2016-06-07T07:07:03.000Z</published>
+    <updated>2016-06-07T08:09:35.265Z</updated>
+    
+    <content type="html">&lt;ol&gt;
+&lt;li&gt;在某个activity中输入logt，根据提示，打回车，直接出现：private static final String TAG = “MainActivity”，然后在需要打印log的地方输入logd(或者loge,logi等)，根据提示，打回车，直接出现：Log.d(TAG,””)&lt;/li&gt;
+&lt;li&gt;使用快捷键生成的代码不会自动导入代码需要的包，点击settings–editor –general–auto import–选中Optimize imports on the fly, Add unambiguous imports on the fly;&lt;img src=&quot;http://i.imgur.com/VaDBK0L.jpg&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;li&gt;代码自动提示： ctrl+alt+space&lt;/li&gt;
+&lt;li&gt;将某行代码上移一行，如将第6行的代码移动到第5行，首先将光标置于第6行，ctrl+shift+方向键的向上箭头&lt;br&gt;，第5行的就变成了第6行&lt;/li&gt;
+&lt;li&gt;复制整行代码，在某一行代码处ctrl+D即可复制整行代码，将复制的代码置于下一行；&lt;/li&gt;
+&lt;li&gt;ctrl+y删除整行代码&lt;/li&gt;
+&lt;li&gt;alt+方向键的向上或向下箭头，光标就在类中的不同方法之间快速移动；&lt;/li&gt;
+&lt;li&gt;ctrl+w选中代码，连续按可以选中某个方法下面的所有代码，此时可以按照第4步，快速移动整个代码块；&lt;/li&gt;
+&lt;li&gt;快速打开某个类，atrl+n&lt;/li&gt;
+&lt;li&gt;快速打开某个xml文件，如布局文件，values文件等，ctrl+shift+n&lt;/li&gt;
+&lt;li&gt;快速定位到某个类的父类，ctrl+u&lt;/li&gt;
+&lt;li&gt;现有一个方法public void sayHello()，想查看一下整个工程中哪些地方调用了sayHello方法，ctrl+alt+h&lt;/li&gt;
+&lt;li&gt;现有一行代码，student.sayHello();将光标置于sayHello()上面，按下ctrl+shift+i，就弹出一个悬浮窗，显示sayHello()方法中的实现；&lt;/li&gt;
+&lt;li&gt;ctrl+h查看某个类的继承结构&lt;/li&gt;
+&lt;li&gt;Ctrl+F12，弹出悬浮窗，展示当前类中的所有方法&lt;/li&gt;
+&lt;li&gt;Ctrl+O，弹出悬浮窗，快速选择要覆写的父类方法，比如在一个activity中，你想快速覆写onCreate&lt;br&gt;(),onDestory()等方法，ctrl+O即可&lt;/li&gt;
+&lt;li&gt;有一个方法代码很长，包含了很多大括号，你找不到哪个大括号是一对，按ctrl+[  或者  ctrl+]即可；&lt;/li&gt;
+&lt;li&gt;选中某个代码块，按住ctrl+alt+T可以快速添加try catch, if else, while等&lt;/li&gt;
+&lt;li&gt;Ctrl+J，快速生成相关的代码，如快速findviewbyid, toast, setvisibility(view.gone)，比如写了一个方法public void sayHello(String content){}，在方法体中按下快捷键，可以快速选择生成诸如：if (content != null)等if判断语句，循环语句等等；&lt;/li&gt;
+&lt;li&gt;ctrl+E，打开历史浏览文件；&lt;/li&gt;
+&lt;li&gt;Ctrl+alt+L快速格式化代码，比如有三行代码缩进不规范，看着很难看，按下快捷键即可自动对齐这些代码&lt;br&gt;，和QQ的快捷键冲突&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;在某个activity中输入logt，根据提示，打回车，直接出现：private static final String TAG = “MainActivity”，然后在需要打印log的地方输入logd(或者loge,logi等)，根据提示，打回车，直接出现：L
+    
+    </summary>
+    
+      <category term="编程" scheme="http://tengfei.science/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="Android" scheme="http://tengfei.science/categories/%E7%BC%96%E7%A8%8B/Android/"/>
+    
+    
+      <category term="Android Studio快捷键" scheme="http://tengfei.science/tags/Android-Studio%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>help</title>

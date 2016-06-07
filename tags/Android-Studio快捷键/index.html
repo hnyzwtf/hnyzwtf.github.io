@@ -7,7 +7,7 @@
 
     
 
-    <title>hexo博客配置注意事项 | Tengfei&#39;s Blog</title>
+    <title>Android Studio快捷键 | Tengfei&#39;s Blog</title>
     <meta name="author" content="Tengfei">
     
     <meta name="description" content="Android | Java | GRASS GIS | ArcGIS">
@@ -15,7 +15,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="hexo博客配置注意事项"/>
+    
     <meta property="og:site_name" content="Tengfei Blog"/>
 
     
@@ -241,93 +241,30 @@
 
     <main>
         <div class="container main-container">
-    <nav class="page-nav hide-on-small-only">
+    
+
+<nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">当前位置（分类目录）</span>
-        
-            
-    
-    
-    <a class="breadcrumb" href="/categories/生活/">生活</a><a class="breadcrumb" href="/categories/生活/其他/">其他</a>
-
-
+        <span class="breadcrumb">当前位置（标签）</span>
         
 
+        
+            <a class="breadcrumb" href="/tags/Android-Studio快捷键/">Android Studio快捷键</a>
         
     </div>
 </nav>
 
-<article>
-    <div class="card">
-        <div class="card-content">
-            
-
-            <div class="article-title">
-                
-    
-        <h1>hexo博客配置注意事项</h1>
-    
 
 
-            </div>
-            <time class="pink-link-context" datetime="2016-05-22T13:25:04.000Z"><a href="/2016/05/22/hexo博客配置注意事项/">2016-05-22</a></time>
-
-            
-    <div class="tags-row">
+    <div class="collection mt-0">
         
-            <a href="/tags/hexo博客配置/" class="chip pink lighten-1">hexo博客配置</a>
+            <a href="/2016/06/07/Android Studio快捷键/" class="collection-item grey-text text-darken-1">
+                <time datetime="2016-06-07T07:07:03.000Z">2016-06-07</time>
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                Android Studio快捷键
+            </a>
         
     </div>
-
-
-            <div class="toc pink-link-context hide-on-med-and-down">
-    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#让某些文件不被hexo渲染"><span class="section table-of-contents-text">让某些文件不被hexo渲染</span></a></li><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#将购买的域名与博客绑定"><span class="section table-of-contents-text">将购买的域名与博客绑定</span></a></li></ol>
-</div>
-
-
-            <div class="entry pink-link-context">
-                <h4 id="让某些文件不被hexo渲染"><a href="#让某些文件不被hexo渲染" class="headerlink" title="让某些文件不被hexo渲染"></a>让某些文件不被hexo渲染</h4><p>当我们在为我们的博客提交到百度或者谷歌搜索时，第一步便是在百度站长平台或者google search console中添加并验证我们的网站，我们选择下载html文件的方式进行验证。即下载baidu_verify_hu7LcmdtsJ.html和googlebab4ebb8b7887c15.html这两个文件，并将其放置于source目录下：</p>
-<p><img src="http://i.imgur.com/XBG4USM.jpg" alt=""></p>
-<p>接着在hexo博客的配置文件_config.yml中找到skip_render添加如下代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">ss-s&apos;googlebab4ebb8b7887c15.html&apos;</span><br><span class="line">ss-s&apos;baidu_verify_hu7LcmdtsJ.html&apos;</span><br></pre></td></tr></table></figure>
-<p>需要注意的是上面的s表示一个空格，两个s表示两个空格，为了强调，将空格用s来表示，添加的时候将s变为空格即可。更多关于skip_render的用法参考：<a href="http://luopq.com/2016/01/17/hexo-tips/" target="_blank" rel="external">Hexo技巧收集 - 不定期更新</a>。</p>
-<h4 id="将购买的域名与博客绑定"><a href="#将购买的域名与博客绑定" class="headerlink" title="将购买的域名与博客绑定"></a>将购买的域名与博客绑定</h4><p>在hexo\source目录下新建一个名为CNAME的文件，注意，这个文件没有后缀。用记事本编辑，在文件内键入你刚刚购买的域名即可，如www.tengfei.science。更多内容参考：<a href="http://www.gravel.club/2016/04/22/parked_domains/" target="_blank" rel="external">将发布在github上的博客与域名进行绑定</a></p>
-
-            </div>
-        </div>
-    </div>
-</article>
-
-
-
-
-    <section id="comment">
-        <div class="card">
-            <div class="card-content">
-                <!-- Duoshuo Comment BEGIN -->
-                <div class="ds-thread" data-thread-key="2016/05/22/hexo博客配置注意事项/" data-title="hexo博客配置注意事项" data-url="http://tengfei.science/2016/05/22/hexo博客配置注意事项/"></div>
-
-                <script type="text/javascript">
-                    console.log(document.querySelector('.ds-thread'));
-                    var duoshuoQuery = {
-                        short_name: 'tengfei123'
-                    };
-                    (function() {
-                        var ds = document.createElement('script');
-                        ds.type = 'text/javascript';
-                        ds.async = true;
-                        ds.src = (document.location.protocol == 'https:'
-                            ? 'https:'
-                            : 'http:') + '//static.duoshuo.com/embed.js';
-                        ds.charset = 'UTF-8';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-                    })();
-                </script>
-                <!-- Duoshuo Comment END -->
-            </div>
-        </div>
-    </section>
-
 
 
 </div>

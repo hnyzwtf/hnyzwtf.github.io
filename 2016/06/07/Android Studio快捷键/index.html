@@ -7,7 +7,7 @@
 
     
 
-    <title>hexo博客配置注意事项 | Tengfei&#39;s Blog</title>
+    <title>Android Studio快捷键 | Tengfei&#39;s Blog</title>
     <meta name="author" content="Tengfei">
     
     <meta name="description" content="Android | Java | GRASS GIS | ArcGIS">
@@ -15,7 +15,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="hexo博客配置注意事项"/>
+    <meta property="og:title" content="Android Studio快捷键"/>
     <meta property="og:site_name" content="Tengfei Blog"/>
 
     
@@ -248,7 +248,7 @@
             
     
     
-    <a class="breadcrumb" href="/categories/生活/">生活</a><a class="breadcrumb" href="/categories/生活/其他/">其他</a>
+    <a class="breadcrumb" href="/categories/编程/">编程</a><a class="breadcrumb" href="/categories/编程/Android/">Android</a>
 
 
         
@@ -265,33 +265,50 @@
             <div class="article-title">
                 
     
-        <h1>hexo博客配置注意事项</h1>
+        <h1>Android Studio快捷键</h1>
     
 
 
             </div>
-            <time class="pink-link-context" datetime="2016-05-22T13:25:04.000Z"><a href="/2016/05/22/hexo博客配置注意事项/">2016-05-22</a></time>
+            <time class="pink-link-context" datetime="2016-06-07T07:07:03.000Z"><a href="/2016/06/07/Android Studio快捷键/">2016-06-07</a></time>
 
             
     <div class="tags-row">
         
-            <a href="/tags/hexo博客配置/" class="chip pink lighten-1">hexo博客配置</a>
+            <a href="/tags/Android-Studio快捷键/" class="chip pink lighten-1">Android Studio快捷键</a>
         
     </div>
 
 
             <div class="toc pink-link-context hide-on-med-and-down">
-    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#让某些文件不被hexo渲染"><span class="section table-of-contents-text">让某些文件不被hexo渲染</span></a></li><li class="section table-of-contents-item section table-of-contents-level-4"><a class="section table-of-contents-link" href="#将购买的域名与博客绑定"><span class="section table-of-contents-text">将购买的域名与博客绑定</span></a></li></ol>
+    
 </div>
 
 
             <div class="entry pink-link-context">
-                <h4 id="让某些文件不被hexo渲染"><a href="#让某些文件不被hexo渲染" class="headerlink" title="让某些文件不被hexo渲染"></a>让某些文件不被hexo渲染</h4><p>当我们在为我们的博客提交到百度或者谷歌搜索时，第一步便是在百度站长平台或者google search console中添加并验证我们的网站，我们选择下载html文件的方式进行验证。即下载baidu_verify_hu7LcmdtsJ.html和googlebab4ebb8b7887c15.html这两个文件，并将其放置于source目录下：</p>
-<p><img src="http://i.imgur.com/XBG4USM.jpg" alt=""></p>
-<p>接着在hexo博客的配置文件_config.yml中找到skip_render添加如下代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">ss-s&apos;googlebab4ebb8b7887c15.html&apos;</span><br><span class="line">ss-s&apos;baidu_verify_hu7LcmdtsJ.html&apos;</span><br></pre></td></tr></table></figure>
-<p>需要注意的是上面的s表示一个空格，两个s表示两个空格，为了强调，将空格用s来表示，添加的时候将s变为空格即可。更多关于skip_render的用法参考：<a href="http://luopq.com/2016/01/17/hexo-tips/" target="_blank" rel="external">Hexo技巧收集 - 不定期更新</a>。</p>
-<h4 id="将购买的域名与博客绑定"><a href="#将购买的域名与博客绑定" class="headerlink" title="将购买的域名与博客绑定"></a>将购买的域名与博客绑定</h4><p>在hexo\source目录下新建一个名为CNAME的文件，注意，这个文件没有后缀。用记事本编辑，在文件内键入你刚刚购买的域名即可，如www.tengfei.science。更多内容参考：<a href="http://www.gravel.club/2016/04/22/parked_domains/" target="_blank" rel="external">将发布在github上的博客与域名进行绑定</a></p>
+                <ol>
+<li>在某个activity中输入logt，根据提示，打回车，直接出现：private static final String TAG = “MainActivity”，然后在需要打印log的地方输入logd(或者loge,logi等)，根据提示，打回车，直接出现：Log.d(TAG,””)</li>
+<li>使用快捷键生成的代码不会自动导入代码需要的包，点击settings–editor –general–auto import–选中Optimize imports on the fly, Add unambiguous imports on the fly;<img src="http://i.imgur.com/VaDBK0L.jpg" alt=""></li>
+<li>代码自动提示： ctrl+alt+space</li>
+<li>将某行代码上移一行，如将第6行的代码移动到第5行，首先将光标置于第6行，ctrl+shift+方向键的向上箭头<br>，第5行的就变成了第6行</li>
+<li>复制整行代码，在某一行代码处ctrl+D即可复制整行代码，将复制的代码置于下一行；</li>
+<li>ctrl+y删除整行代码</li>
+<li>alt+方向键的向上或向下箭头，光标就在类中的不同方法之间快速移动；</li>
+<li>ctrl+w选中代码，连续按可以选中某个方法下面的所有代码，此时可以按照第4步，快速移动整个代码块；</li>
+<li>快速打开某个类，atrl+n</li>
+<li>快速打开某个xml文件，如布局文件，values文件等，ctrl+shift+n</li>
+<li>快速定位到某个类的父类，ctrl+u</li>
+<li>现有一个方法public void sayHello()，想查看一下整个工程中哪些地方调用了sayHello方法，ctrl+alt+h</li>
+<li>现有一行代码，student.sayHello();将光标置于sayHello()上面，按下ctrl+shift+i，就弹出一个悬浮窗，显示sayHello()方法中的实现；</li>
+<li>ctrl+h查看某个类的继承结构</li>
+<li>Ctrl+F12，弹出悬浮窗，展示当前类中的所有方法</li>
+<li>Ctrl+O，弹出悬浮窗，快速选择要覆写的父类方法，比如在一个activity中，你想快速覆写onCreate<br>(),onDestory()等方法，ctrl+O即可</li>
+<li>有一个方法代码很长，包含了很多大括号，你找不到哪个大括号是一对，按ctrl+[  或者  ctrl+]即可；</li>
+<li>选中某个代码块，按住ctrl+alt+T可以快速添加try catch, if else, while等</li>
+<li>Ctrl+J，快速生成相关的代码，如快速findviewbyid, toast, setvisibility(view.gone)，比如写了一个方法public void sayHello(String content){}，在方法体中按下快捷键，可以快速选择生成诸如：if (content != null)等if判断语句，循环语句等等；</li>
+<li>ctrl+E，打开历史浏览文件；</li>
+<li>Ctrl+alt+L快速格式化代码，比如有三行代码缩进不规范，看着很难看，按下快捷键即可自动对齐这些代码<br>，和QQ的快捷键冲突</li>
+</ol>
 
             </div>
         </div>
@@ -305,7 +322,7 @@
         <div class="card">
             <div class="card-content">
                 <!-- Duoshuo Comment BEGIN -->
-                <div class="ds-thread" data-thread-key="2016/05/22/hexo博客配置注意事项/" data-title="hexo博客配置注意事项" data-url="http://tengfei.science/2016/05/22/hexo博客配置注意事项/"></div>
+                <div class="ds-thread" data-thread-key="2016/06/07/Android Studio快捷键/" data-title="Android Studio快捷键" data-url="http://tengfei.science/2016/06/07/Android Studio快捷键/"></div>
 
                 <script type="text/javascript">
                     console.log(document.querySelector('.ds-thread'));
