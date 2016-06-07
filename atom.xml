@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengfei.science/"/>
-  <updated>2016-06-07T08:09:35.265Z</updated>
+  <updated>2016-06-07T13:20:53.080Z</updated>
   <id>http://tengfei.science/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://tengfei.science/2016/06/07/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>http://tengfei.science/2016/06/07/Android Studio快捷键/</id>
     <published>2016-06-07T07:07:03.000Z</published>
-    <updated>2016-06-07T08:09:35.265Z</updated>
+    <updated>2016-06-07T13:20:53.080Z</updated>
     
     <content type="html">&lt;ol&gt;
 &lt;li&gt;在某个activity中输入logt，根据提示，打回车，直接出现：private static final String TAG = “MainActivity”，然后在需要打印log的地方输入logd(或者loge,logi等)，根据提示，打回车，直接出现：Log.d(TAG,””)&lt;/li&gt;
@@ -44,6 +44,7 @@
 &lt;li&gt;Ctrl+J，快速生成相关的代码，如快速findviewbyid, toast, setvisibility(view.gone)，比如写了一个方法public void sayHello(String content){}，在方法体中按下快捷键，可以快速选择生成诸如：if (content != null)等if判断语句，循环语句等等；&lt;/li&gt;
 &lt;li&gt;ctrl+E，打开历史浏览文件；&lt;/li&gt;
 &lt;li&gt;Ctrl+alt+L快速格式化代码，比如有三行代码缩进不规范，看着很难看，按下快捷键即可自动对齐这些代码&lt;br&gt;，和QQ的快捷键冲突&lt;/li&gt;
+&lt;li&gt;给某个函数（方法）添加注释，File–Settings–keymap–在快捷键搜索框中输入“doc comment”，搜索注释的快捷键，可以看到注释的快捷键”Fix doc comment”没有设置。右键”Fix doc comment”项，选择“Add Keyboard Shortcut“添加键盘类型的快捷，在这里我输入的是ctrl+alt+/&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
