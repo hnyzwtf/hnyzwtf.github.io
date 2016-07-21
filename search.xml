@@ -4,6 +4,89 @@
   
     
     <entry>
+      <title><![CDATA[Android博客工具资源收集]]></title>
+      <url>http://tengfei.science/2016/07/21/Android%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%85%B7%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/</url>
+      <content type="html"><![CDATA[<p>##博客类</p>
+<ul>
+<li>郭霖 <a href="http://blog.csdn.net/sinyu890807/" target="_blank" rel="external">http://blog.csdn.net/sinyu890807/</a></li>
+<li>张鸿洋 <a href="http://blog.csdn.net/lmj623565791/article/category/3147547" target="_blank" rel="external">http://blog.csdn.net/lmj623565791/article/category/3147547</a></li>
+<li>张奇 <a href="http://stormzhang.com/posts/" target="_blank" rel="external">http://stormzhang.com/posts/</a></li>
+<li>夏安明 <a href="http://blog.csdn.net/xiaanming?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/xiaanming?viewmode=contents</a></li>
+<li>刘超 <a href="http://blog.csdn.net/qq_23547831/" target="_blank" rel="external">http://blog.csdn.net/qq_23547831/</a></li>
+<li><a href="http://blog.csdn.net/ht_android?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/ht_android?viewmode=contents</a></li>
+<li><a href="http://yuweiguocn.github.io/" target="_blank" rel="external">http://yuweiguocn.github.io/</a></li>
+<li>长期未更新 <a href="http://blog.csdn.net/way_ping_li?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/way_ping_li?viewmode=contents</a></li>
+<li>CSDN移动开发专栏 <a href="http://blog.csdn.net/mobile/column.html" target="_blank" rel="external">http://blog.csdn.net/mobile/column.html</a></li>
+<li>Trinea <a href="http://www.trinea.cn/category/android/" target="_blank" rel="external">http://www.trinea.cn/category/android/</a></li>
+<li>胡凯 <a href="http://hukai.me/" target="_blank" rel="external">http://hukai.me/</a></li>
+<li>干货集中营 <a href="http://gank.io/" target="_blank" rel="external">http://gank.io/</a></li>
+<li>技术小黑屋 <a href="http://droidyue.com/" target="_blank" rel="external">http://droidyue.com/</a></li>
+<li><a href="http://blog.csdn.net/hanhailong726188?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/hanhailong726188?viewmode=contents</a></li>
+<li>CSDN Android知识库 <a href="http://lib.csdn.net/base/15" target="_blank" rel="external">http://lib.csdn.net/base/15</a></li>
+<li>刘望舒 <a href="http://blog.csdn.net/itachi85?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/itachi85?viewmode=contents</a></li>
+<li><a href="http://loody.github.io/archives/" target="_blank" rel="external">http://loody.github.io/archives/</a></li>
+<li><a href="http://kaywu.github.io/categories/Android/" target="_blank" rel="external">http://kaywu.github.io/categories/Android/</a></li>
+<li><a href="http://w4lle.github.io/" target="_blank" rel="external">http://w4lle.github.io/</a></li>
+<li><a href="http://blog.csdn.net/coder_pig?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/coder_pig?viewmode=contents</a></li>
+<li>李济洲 <a href="http://blog.csdn.net/leejizhou" target="_blank" rel="external">http://blog.csdn.net/leejizhou</a></li>
+<li>傅圆 <a href="http://mrfu.me/" target="_blank" rel="external">http://mrfu.me/</a></li>
+<li><a href="http://keeganlee.me/" target="_blank" rel="external">http://keeganlee.me/</a></li>
+<li><a href="http://www.jianshu.com/users/f5909165c1e8/latest_articles" target="_blank" rel="external">http://www.jianshu.com/users/f5909165c1e8/latest_articles</a></li>
+<li><a href="http://blog.csdn.net/lfdfhl" target="_blank" rel="external">http://blog.csdn.net/lfdfhl</a></li>
+<li>Android vector 标签 pathData 详解 <a href="http://www.jianshu.com/p/a3cb1e23c2c4" target="_blank" rel="external">http://www.jianshu.com/p/a3cb1e23c2c4</a></li>
+<li>gradle入门 <a href="http://www.androidchina.net/2155.html" target="_blank" rel="external">http://www.androidchina.net/2155.html</a></li>
+<li><a href="http://blog.csdn.net/gdutxiaoxu" target="_blank" rel="external">http://blog.csdn.net/gdutxiaoxu</a></li>
+<li><a href="http://blog.csdn.net/jdsjlzx" target="_blank" rel="external">http://blog.csdn.net/jdsjlzx</a></li>
+<li><a href="http://blog.csdn.net/tiefeng0606?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/tiefeng0606?viewmode=contents</a></li>
+<li><a href="https://github.com/android-cn/android-dev-cn" target="_blank" rel="external">https://github.com/android-cn/android-dev-cn</a></li>
+</ul>
+<p>##Android知乎类</p>
+<ul>
+<li>有哪些在实际 Android 项目中用到的设计模式 <a href="https://www.zhihu.com/question/29575295" target="_blank" rel="external">https://www.zhihu.com/question/29575295</a></li>
+<li>如何自学 Android 编程 <a href="https://www.zhihu.com/question/26417244" target="_blank" rel="external">https://www.zhihu.com/question/26417244</a></li>
+<li>零基础，怎么学习Android安卓APP的开发，需要学习哪些知识 <a href="https://www.zhihu.com/question/26757005" target="_blank" rel="external">https://www.zhihu.com/question/26757005</a></li>
+<li>Android开发时你遇到过什么相见恨晚的工具或网站 <a href="https://www.zhihu.com/question/27140400" target="_blank" rel="external">https://www.zhihu.com/question/27140400</a></li>
+<li>有哪些优秀的 Android 应用开源项目、特效、设计资料推荐 <a href="https://www.zhihu.com/question/19804692" target="_blank" rel="external">https://www.zhihu.com/question/19804692</a></li>
+<li>有哪些 Android 大牛的 blog 值得推荐 <a href="https://www.zhihu.com/question/19775981" target="_blank" rel="external">https://www.zhihu.com/question/19775981</a></li>
+<li>GitHub 上有哪些适合新人围观的 Android 项目 <a href="https://www.zhihu.com/question/28481864" target="_blank" rel="external">https://www.zhihu.com/question/28481864</a></li>
+</ul>
+<p>##资源聚合类</p>
+<ul>
+<li><a href="http://wanandroid.com/" target="_blank" rel="external">http://wanandroid.com/</a></li>
+<li>Android学习资料分享 <a href="http://www.jianshu.com/p/874ff12a4c01" target="_blank" rel="external">http://www.jianshu.com/p/874ff12a4c01</a></li>
+<li>Android学习资料 <a href="https://github.com/zhujun2730/Android-Learning-Resources" target="_blank" rel="external">https://github.com/zhujun2730/Android-Learning-Resources</a></li>
+<li>Android学习资料 <a href="http://gold.xitu.io/entry/56cb3259d342d3005457d151" target="_blank" rel="external">http://gold.xitu.io/entry/56cb3259d342d3005457d151</a></li>
+<li>Android优秀资源合集 <a href="http://www.jianshu.com/p/4677303a2fdc?utm_campaign=haruki&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weixin&amp;from=groupmessage&amp;isappinstalled=0#" target="_blank" rel="external">http://www.jianshu.com/p/4677303a2fdc?utm_campaign=haruki&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weixin&amp;from=groupmessage&amp;isappinstalled=0#</a></li>
+<li>Android开发者网址导航 <a href="http://www.jianshu.com/p/54902270249d/" target="_blank" rel="external">http://www.jianshu.com/p/54902270249d/</a></li>
+<li><a href="http://www.androiddevtools.cn/" target="_blank" rel="external">http://www.androiddevtools.cn/</a></li>
+</ul>
+<p>##开源项目聚合类</p>
+<ul>
+<li>okhttp-utils <a href="https://github.com/hongyangAndroid/okhttp-utils" target="_blank" rel="external">https://github.com/hongyangAndroid/okhttp-utils</a></li>
+<li>GitHub 排名前 100 的安卓、iOS项目简介 <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html" target="_blank" rel="external">http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html</a></li>
+<li>闲暇 <a href="https://github.com/MummyDing/Leisure" target="_blank" rel="external">https://github.com/MummyDing/Leisure</a></li>
+<li>gankgirl <a href="https://github.com/gaolonglong/GankGirl" target="_blank" rel="external">https://github.com/gaolonglong/GankGirl</a></li>
+<li><a href="http://android-arsenal.com/free" target="_blank" rel="external">http://android-arsenal.com/free</a></li>
+<li>justwetools <a href="https://github.com/lfkdsk/JustWeTools" target="_blank" rel="external">https://github.com/lfkdsk/JustWeTools</a></li>
+<li>GitHub Android Libraries Top 100 简介 <a href="https://github.com/Freelander/Android_Data/blob/master/Android-Librarys-Top-100.md#rd" target="_blank" rel="external">https://github.com/Freelander/Android_Data/blob/master/Android-Librarys-Top-100.md#rd</a></li>
+<li>List of Android UI/UX Libraries <a href="https://github.com/wasabeef/awesome-android-ui" target="_blank" rel="external">https://github.com/wasabeef/awesome-android-ui</a></li>
+<li><a href="http://p.codekk.com/detail/Android/Jude95/Beam" target="_blank" rel="external">http://p.codekk.com/detail/Android/Jude95/Beam</a></li>
+<li>Android Libraries and Resources<a href="http://alamkanak.github.io/android-libraries-and-resources/" target="_blank" rel="external">http://alamkanak.github.io/android-libraries-and-resources/</a></li>
+<li><a href="http://android-arsenal.com/" target="_blank" rel="external">http://android-arsenal.com/</a></li>
+<li>jadx<a href="https://github.com/skylot/jadx" target="_blank" rel="external">https://github.com/skylot/jadx</a></li>
+<li>Android酷炫实用的开源框架（UI框架）<a href="http://www.androidchina.net/1992.html" target="_blank" rel="external">http://www.androidchina.net/1992.html</a></li>
+<li><a href="https://github.com/Trinea/android-open-project" target="_blank" rel="external">https://github.com/Trinea/android-open-project</a></li>
+<li>路上的风景<a href="https://github.com/John-Chen/TheSceneryAlong" target="_blank" rel="external">https://github.com/John-Chen/TheSceneryAlong</a></li>
+</ul>
+<p>##论坛类</p>
+<ul>
+<li><a href="http://finalshares.com/bbs-index-run" target="_blank" rel="external">http://finalshares.com/bbs-index-run</a></li>
+<li><a href="http://www.akaifa.com/" target="_blank" rel="external">http://www.akaifa.com/</a></li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Android Studio快捷键]]></title>
       <url>http://tengfei.science/2016/06/07/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
       <content type="html"><![CDATA[<ol>
@@ -117,16 +200,16 @@ print r
   
     
     <entry>
+      <title><![CDATA[读书]]></title>
+      <url>http://tengfei.science/reading/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于]]></title>
       <url>http://tengfei.science/about/index.html</url>
       <content type="html"><![CDATA[<p>大家好，欢迎来到我的个人技术博客。想了解我的更多信息，请关注我的微博，github账号吧</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[读书]]></title>
-      <url>http://tengfei.science/reading/index.html</url>
-      <content type="html"></content>
     </entry>
     
   
