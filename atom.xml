@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengfei.science/"/>
-  <updated>2016-07-21T05:37:51.956Z</updated>
+  <updated>2016-07-22T01:29:13.039Z</updated>
   <id>http://tengfei.science/</id>
   
   <author>
@@ -14,6 +14,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017校园招聘</title>
+    <link href="http://tengfei.science/2016/07/22/2017%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98/"/>
+    <id>http://tengfei.science/2016/07/22/2017校园招聘/</id>
+    <published>2016-07-22T01:16:25.000Z</published>
+    <updated>2016-07-22T01:29:13.039Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;正在进行&quot;&gt;&lt;a href=&quot;#正在进行&quot; class=&quot;headerlink&quot; title=&quot;正在进行&quot;&gt;&lt;/a&gt;正在进行&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://campus.alibaba.com/index.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阿里巴巴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lagou.com/gongsi/j13789.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;扇贝&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/careers#positions&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知乎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://campus.163.com/#/campus/0/0/1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;网易招聘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://join.qq.com/index.php&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯招聘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://hr.youdao.com/index.php?t1=index&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有道招聘&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;即将开始&quot;&gt;&lt;a href=&quot;#即将开始&quot; class=&quot;headerlink&quot; title=&quot;即将开始&quot;&gt;&lt;/a&gt;即将开始&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://campus.jd.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;京东招聘&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;正在进行&quot;&gt;&lt;a href=&quot;#正在进行&quot; class=&quot;headerlink&quot; title=&quot;正在进行&quot;&gt;&lt;/a&gt;正在进行&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://campus.alibaba.com/index.htm&quot; target=&quot;_
+    
+    </summary>
+    
+      <category term="生活" scheme="http://tengfei.science/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="其他" scheme="http://tengfei.science/categories/%E7%94%9F%E6%B4%BB/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="2017" scheme="http://tengfei.science/tags/2017/"/>
+    
+      <category term="校园招聘" scheme="http://tengfei.science/tags/%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98/"/>
+    
+  </entry>
   
   <entry>
     <title>Android开发资源收集</title>
