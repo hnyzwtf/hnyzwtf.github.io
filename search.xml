@@ -56,6 +56,7 @@
 <li><a href="http://blog.csdn.net/jdsjlzx" target="_blank" rel="external">http://blog.csdn.net/jdsjlzx</a></li>
 <li><a href="http://blog.csdn.net/tiefeng0606?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/tiefeng0606?viewmode=contents</a></li>
 <li><a href="https://github.com/android-cn/android-dev-cn" target="_blank" rel="external">https://github.com/android-cn/android-dev-cn</a></li>
+<li>andriod 打造炫酷的电影票在线选座控件，1比1还原淘宝电影在线选座功能<a href="http://blog.csdn.net/qifengdeqingchen/article/details/51868126" target="_blank" rel="external">http://blog.csdn.net/qifengdeqingchen/article/details/51868126</a></li>
 </ul>
 <h2 id="知乎类"><a href="#知乎类" class="headerlink" title="知乎类"></a>知乎类</h2><ul>
 <li>有哪些在实际 Android 项目中用到的设计模式 <a href="https://www.zhihu.com/question/29575295" target="_blank" rel="external">https://www.zhihu.com/question/29575295</a></li>
@@ -92,7 +93,8 @@
 <li><a href="https://github.com/Trinea/android-open-project" target="_blank" rel="external">https://github.com/Trinea/android-open-project</a></li>
 <li>路上的风景<a href="https://github.com/John-Chen/TheSceneryAlong" target="_blank" rel="external">https://github.com/John-Chen/TheSceneryAlong</a></li>
 </ul>
-<h2 id="论坛类"><a href="#论坛类" class="headerlink" title="论坛类"></a>论坛类</h2><ul>
+<h2 id="网站论坛类"><a href="#网站论坛类" class="headerlink" title="网站论坛类"></a>网站论坛类</h2><ul>
+<li>掘金<a href="http://gold.xitu.io/welcome" target="_blank" rel="external">http://gold.xitu.io/welcome</a></li>
 <li><a href="http://finalshares.com/bbs-index-run" target="_blank" rel="external">http://finalshares.com/bbs-index-run</a></li>
 <li><a href="http://www.akaifa.com/" target="_blank" rel="external">http://www.akaifa.com/</a></li>
 </ul>
@@ -213,16 +215,16 @@ print r
   
     
     <entry>
-      <title><![CDATA[读书]]></title>
-      <url>http://tengfei.science/reading/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于]]></title>
       <url>http://tengfei.science/about/index.html</url>
       <content type="html"><![CDATA[<p>大家好，欢迎来到我的个人技术博客。想了解我的更多信息，请关注我的微博，github账号吧</p>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[读书]]></title>
+      <url>http://tengfei.science/reading/index.html</url>
+      <content type="html"></content>
     </entry>
     
   

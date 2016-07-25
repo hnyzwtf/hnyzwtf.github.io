@@ -59,7 +59,7 @@
     <link href="http://tengfei.science/2016/07/21/Android%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/"/>
     <id>http://tengfei.science/2016/07/21/Android开发资源收集/</id>
     <published>2016-07-21T00:46:25.000Z</published>
-    <updated>2016-07-21T05:37:51.956Z</updated>
+    <updated>2016-07-25T01:20:25.666Z</updated>
     
     <content type="html">&lt;h2 id=&quot;博客类&quot;&gt;&lt;a href=&quot;#博客类&quot; class=&quot;headerlink&quot; title=&quot;博客类&quot;&gt;&lt;/a&gt;博客类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;郭霖 &lt;a href=&quot;http://blog.csdn.net/sinyu890807/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/sinyu890807/&lt;/a&gt;&lt;/li&gt;
@@ -93,6 +93,7 @@
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/jdsjlzx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/jdsjlzx&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/tiefeng0606?viewmode=contents&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/tiefeng0606?viewmode=contents&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/android-cn/android-dev-cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/android-cn/android-dev-cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;andriod 打造炫酷的电影票在线选座控件，1比1还原淘宝电影在线选座功能&lt;a href=&quot;http://blog.csdn.net/qifengdeqingchen/article/details/51868126&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/qifengdeqingchen/article/details/51868126&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;知乎类&quot;&gt;&lt;a href=&quot;#知乎类&quot; class=&quot;headerlink&quot; title=&quot;知乎类&quot;&gt;&lt;/a&gt;知乎类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;有哪些在实际 Android 项目中用到的设计模式 &lt;a href=&quot;https://www.zhihu.com/question/29575295&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/29575295&lt;/a&gt;&lt;/li&gt;
@@ -129,7 +130,8 @@
 &lt;li&gt;&lt;a href=&quot;https://github.com/Trinea/android-open-project&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/Trinea/android-open-project&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;路上的风景&lt;a href=&quot;https://github.com/John-Chen/TheSceneryAlong&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/John-Chen/TheSceneryAlong&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;论坛类&quot;&gt;&lt;a href=&quot;#论坛类&quot; class=&quot;headerlink&quot; title=&quot;论坛类&quot;&gt;&lt;/a&gt;论坛类&lt;/h2&gt;&lt;ul&gt;
+&lt;h2 id=&quot;网站论坛类&quot;&gt;&lt;a href=&quot;#网站论坛类&quot; class=&quot;headerlink&quot; title=&quot;网站论坛类&quot;&gt;&lt;/a&gt;网站论坛类&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;掘金&lt;a href=&quot;http://gold.xitu.io/welcome&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://gold.xitu.io/welcome&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://finalshares.com/bbs-index-run&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://finalshares.com/bbs-index-run&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.akaifa.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.akaifa.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

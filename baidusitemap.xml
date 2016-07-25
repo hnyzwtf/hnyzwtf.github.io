@@ -4,6 +4,31 @@
 
     
   <url>
+    <loc>http://tengfei.science/2016/07/21/Android%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/</loc>
+    <lastmod>2016-07-25T01:20:25.666Z</lastmod>
+    <data>
+        <display>
+        <title>Android开发资源收集</title>
+        <pubTime>2016-07-21T00:46:25.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>资源大全</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程" url="http://tengfei.science/categories/%E7%BC%96%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Android" url="http://tengfei.science/categories/%E7%BC%96%E7%A8%8B/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tengfei.science/2016/07/22/2017%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98/</loc>
     <lastmod>2016-07-24T12:05:54.438Z</lastmod>
     <data>
@@ -22,31 +47,6 @@
           
              
               <breadCrumb title="其他" url="http://tengfei.science/categories/%E7%94%9F%E6%B4%BB/%E5%85%B6%E4%BB%96/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tengfei.science/2016/07/21/Android%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/</loc>
-    <lastmod>2016-07-21T05:37:51.956Z</lastmod>
-    <data>
-        <display>
-        <title>Android开发资源收集</title>
-        <pubTime>2016-07-21T00:46:25.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>资源大全</tag>
-         
-         
-           
-             
-              <breadCrumb title="编程" url="http://tengfei.science/categories/%E7%BC%96%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Android" url="http://tengfei.science/categories/%E7%BC%96%E7%A8%8B/Android/"/>
           
         </display>
     </data>
