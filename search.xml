@@ -76,13 +76,17 @@
 <li>Android开发者网址导航 <a href="http://www.jianshu.com/p/54902270249d/" target="_blank" rel="external">http://www.jianshu.com/p/54902270249d/</a></li>
 <li><a href="http://www.androiddevtools.cn/" target="_blank" rel="external">http://www.androiddevtools.cn/</a></li>
 </ul>
-<h2 id="开源项目聚合类"><a href="#开源项目聚合类" class="headerlink" title="开源项目聚合类"></a>开源项目聚合类</h2><ul>
-<li>okhttp-utils <a href="https://github.com/hongyangAndroid/okhttp-utils" target="_blank" rel="external">https://github.com/hongyangAndroid/okhttp-utils</a></li>
-<li>GitHub 排名前 100 的安卓、iOS项目简介 <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html" target="_blank" rel="external">http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html</a></li>
+<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><h3 id="完整的APP开源项目"><a href="#完整的APP开源项目" class="headerlink" title="完整的APP开源项目"></a>完整的APP开源项目</h3><ul>
 <li>闲暇 <a href="https://github.com/MummyDing/Leisure" target="_blank" rel="external">https://github.com/MummyDing/Leisure</a></li>
 <li>gankgirl <a href="https://github.com/gaolonglong/GankGirl" target="_blank" rel="external">https://github.com/gaolonglong/GankGirl</a></li>
-<li><a href="http://android-arsenal.com/free" target="_blank" rel="external">http://android-arsenal.com/free</a></li>
+<li>路上的风景<a href="https://github.com/John-Chen/TheSceneryAlong" target="_blank" rel="external">https://github.com/John-Chen/TheSceneryAlong</a></li>
+</ul>
+<h3 id="开源工具"><a href="#开源工具" class="headerlink" title="开源工具"></a>开源工具</h3><ul>
+<li>okhttp-utils <a href="https://github.com/hongyangAndroid/okhttp-utils" target="_blank" rel="external">https://github.com/hongyangAndroid/okhttp-utils</a></li>
 <li>justwetools <a href="https://github.com/lfkdsk/JustWeTools" target="_blank" rel="external">https://github.com/lfkdsk/JustWeTools</a></li>
+<li><a href="https://github.com/orhanobut/logger" target="_blank" rel="external">强大的日志工具logger</a><h3 id="开源项目聚合类网站"><a href="#开源项目聚合类网站" class="headerlink" title="开源项目聚合类网站"></a>开源项目聚合类网站</h3></li>
+<li>GitHub 排名前 100 的安卓、iOS项目简介 <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html" target="_blank" rel="external">http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html</a></li>
+<li><a href="http://android-arsenal.com/free" target="_blank" rel="external">http://android-arsenal.com/free</a></li>
 <li>GitHub Android Libraries Top 100 简介 <a href="https://github.com/Freelander/Android_Data/blob/master/Android-Librarys-Top-100.md#rd" target="_blank" rel="external">https://github.com/Freelander/Android_Data/blob/master/Android-Librarys-Top-100.md#rd</a></li>
 <li>List of Android UI/UX Libraries <a href="https://github.com/wasabeef/awesome-android-ui" target="_blank" rel="external">https://github.com/wasabeef/awesome-android-ui</a></li>
 <li><a href="http://p.codekk.com/detail/Android/Jude95/Beam" target="_blank" rel="external">http://p.codekk.com/detail/Android/Jude95/Beam</a></li>
@@ -91,7 +95,6 @@
 <li>jadx<a href="https://github.com/skylot/jadx" target="_blank" rel="external">https://github.com/skylot/jadx</a></li>
 <li>Android酷炫实用的开源框架（UI框架）<a href="http://www.androidchina.net/1992.html" target="_blank" rel="external">http://www.androidchina.net/1992.html</a></li>
 <li><a href="https://github.com/Trinea/android-open-project" target="_blank" rel="external">https://github.com/Trinea/android-open-project</a></li>
-<li>路上的风景<a href="https://github.com/John-Chen/TheSceneryAlong" target="_blank" rel="external">https://github.com/John-Chen/TheSceneryAlong</a></li>
 </ul>
 <h2 id="网站论坛类"><a href="#网站论坛类" class="headerlink" title="网站论坛类"></a>网站论坛类</h2><ul>
 <li>掘金<a href="http://gold.xitu.io/welcome" target="_blank" rel="external">http://gold.xitu.io/welcome</a></li>

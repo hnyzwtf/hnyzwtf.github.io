@@ -59,7 +59,7 @@
     <link href="http://tengfei.science/2016/07/21/Android%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/"/>
     <id>http://tengfei.science/2016/07/21/Android开发资源收集/</id>
     <published>2016-07-21T00:46:25.000Z</published>
-    <updated>2016-07-25T01:20:25.666Z</updated>
+    <updated>2016-07-27T05:45:08.986Z</updated>
     
     <content type="html">&lt;h2 id=&quot;博客类&quot;&gt;&lt;a href=&quot;#博客类&quot; class=&quot;headerlink&quot; title=&quot;博客类&quot;&gt;&lt;/a&gt;博客类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;郭霖 &lt;a href=&quot;http://blog.csdn.net/sinyu890807/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/sinyu890807/&lt;/a&gt;&lt;/li&gt;
@@ -113,13 +113,17 @@
 &lt;li&gt;Android开发者网址导航 &lt;a href=&quot;http://www.jianshu.com/p/54902270249d/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/54902270249d/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.androiddevtools.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.androiddevtools.cn/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;开源项目聚合类&quot;&gt;&lt;a href=&quot;#开源项目聚合类&quot; class=&quot;headerlink&quot; title=&quot;开源项目聚合类&quot;&gt;&lt;/a&gt;开源项目聚合类&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;okhttp-utils &lt;a href=&quot;https://github.com/hongyangAndroid/okhttp-utils&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/hongyangAndroid/okhttp-utils&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GitHub 排名前 100 的安卓、iOS项目简介 &lt;a href=&quot;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html&lt;/a&gt;&lt;/li&gt;
+&lt;h2 id=&quot;开源项目&quot;&gt;&lt;a href=&quot;#开源项目&quot; class=&quot;headerlink&quot; title=&quot;开源项目&quot;&gt;&lt;/a&gt;开源项目&lt;/h2&gt;&lt;h3 id=&quot;完整的APP开源项目&quot;&gt;&lt;a href=&quot;#完整的APP开源项目&quot; class=&quot;headerlink&quot; title=&quot;完整的APP开源项目&quot;&gt;&lt;/a&gt;完整的APP开源项目&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;闲暇 &lt;a href=&quot;https://github.com/MummyDing/Leisure&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/MummyDing/Leisure&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;gankgirl &lt;a href=&quot;https://github.com/gaolonglong/GankGirl&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/gaolonglong/GankGirl&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://android-arsenal.com/free&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://android-arsenal.com/free&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;路上的风景&lt;a href=&quot;https://github.com/John-Chen/TheSceneryAlong&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/John-Chen/TheSceneryAlong&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;开源工具&quot;&gt;&lt;a href=&quot;#开源工具&quot; class=&quot;headerlink&quot; title=&quot;开源工具&quot;&gt;&lt;/a&gt;开源工具&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;okhttp-utils &lt;a href=&quot;https://github.com/hongyangAndroid/okhttp-utils&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/hongyangAndroid/okhttp-utils&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;justwetools &lt;a href=&quot;https://github.com/lfkdsk/JustWeTools&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/lfkdsk/JustWeTools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/orhanobut/logger&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;强大的日志工具logger&lt;/a&gt;&lt;h3 id=&quot;开源项目聚合类网站&quot;&gt;&lt;a href=&quot;#开源项目聚合类网站&quot; class=&quot;headerlink&quot; title=&quot;开源项目聚合类网站&quot;&gt;&lt;/a&gt;开源项目聚合类网站&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;GitHub 排名前 100 的安卓、iOS项目简介 &lt;a href=&quot;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://android-arsenal.com/free&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://android-arsenal.com/free&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GitHub Android Libraries Top 100 简介 &lt;a href=&quot;https://github.com/Freelander/Android_Data/blob/master/Android-Librarys-Top-100.md#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/Freelander/Android_Data/blob/master/Android-Librarys-Top-100.md#rd&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;List of Android UI/UX Libraries &lt;a href=&quot;https://github.com/wasabeef/awesome-android-ui&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/wasabeef/awesome-android-ui&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://p.codekk.com/detail/Android/Jude95/Beam&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://p.codekk.com/detail/Android/Jude95/Beam&lt;/a&gt;&lt;/li&gt;
@@ -128,7 +132,6 @@
 &lt;li&gt;jadx&lt;a href=&quot;https://github.com/skylot/jadx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/skylot/jadx&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Android酷炫实用的开源框架（UI框架）&lt;a href=&quot;http://www.androidchina.net/1992.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.androidchina.net/1992.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/Trinea/android-open-project&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/Trinea/android-open-project&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;路上的风景&lt;a href=&quot;https://github.com/John-Chen/TheSceneryAlong&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/John-Chen/TheSceneryAlong&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;网站论坛类&quot;&gt;&lt;a href=&quot;#网站论坛类&quot; class=&quot;headerlink&quot; title=&quot;网站论坛类&quot;&gt;&lt;/a&gt;网站论坛类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;掘金&lt;a href=&quot;http://gold.xitu.io/welcome&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://gold.xitu.io/welcome&lt;/a&gt;&lt;/li&gt;
