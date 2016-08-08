@@ -83,7 +83,7 @@
     <link href="http://tengfei.science/2016/07/21/Android%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/"/>
     <id>http://tengfei.science/2016/07/21/Android开发资源收集/</id>
     <published>2016-07-21T00:46:25.000Z</published>
-    <updated>2016-08-06T14:59:23.134Z</updated>
+    <updated>2016-08-08T11:51:55.475Z</updated>
     
     <content type="html">&lt;h2 id=&quot;博客类&quot;&gt;&lt;a href=&quot;#博客类&quot; class=&quot;headerlink&quot; title=&quot;博客类&quot;&gt;&lt;/a&gt;博客类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;郭霖 &lt;a href=&quot;http://blog.csdn.net/sinyu890807/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/sinyu890807/&lt;/a&gt;&lt;/li&gt;
@@ -169,6 +169,10 @@
 &lt;h2 id=&quot;面试类&quot;&gt;&lt;a href=&quot;#面试类&quot; class=&quot;headerlink&quot; title=&quot;面试类&quot;&gt;&lt;/a&gt;面试类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/JackyAndroid/AndroidInterview-Q-A/blob/master/README-CN.md#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;国内一线互联网公司内部面试题库&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&amp;amp;mid=2650820648&amp;amp;idx=1&amp;amp;sn=cb9ee924f2ded3358dd6c256803cc687&amp;amp;scene=4#wechat_redirect&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android面试要点&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Android反编译类&quot;&gt;&lt;a href=&quot;#Android反编译类&quot; class=&quot;headerlink&quot; title=&quot;Android反编译类&quot;&gt;&lt;/a&gt;Android反编译类&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/guolin_blog/article/details/49738023&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android安全攻防战，反编译与混淆技术完全解析（上）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/7e5ad780f8ab#&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;对某日头条apk 的反编译和二次打包&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
