@@ -92,7 +92,7 @@
     <link href="http://tengfei.science/2016/07/21/Android%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86/"/>
     <id>http://tengfei.science/2016/07/21/Android开发资源收集/</id>
     <published>2016-07-21T00:46:25.000Z</published>
-    <updated>2016-08-25T05:34:59.712Z</updated>
+    <updated>2016-09-23T01:41:57.858Z</updated>
     
     <content type="html">&lt;h2 id=&quot;博客类&quot;&gt;&lt;a href=&quot;#博客类&quot; class=&quot;headerlink&quot; title=&quot;博客类&quot;&gt;&lt;/a&gt;博客类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;郭霖 &lt;a href=&quot;http://blog.csdn.net/sinyu890807/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/sinyu890807/&lt;/a&gt;&lt;/li&gt;
@@ -128,6 +128,10 @@
 &lt;li&gt;&lt;a href=&quot;https://github.com/android-cn/android-dev-cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/android-cn/android-dev-cn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;andriod 打造炫酷的电影票在线选座控件，1比1还原淘宝电影在线选座功能&lt;a href=&quot;http://blog.csdn.net/qifengdeqingchen/article/details/51868126&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/qifengdeqingchen/article/details/51868126&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/jdsjlzx?viewmode=contents&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一夜漂舟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/533f5ecee306#&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一个Demo学会用Android兼容包新控件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/79604c3ddcae#&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android开发：最详细的 Toolbar 开发实践总结&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/76e30f87a4ed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Design Support Library初探，NavigationView实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/lmj623565791/article/details/46405409&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android 自己实现 NavigationView Design Support Library(1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;知乎类&quot;&gt;&lt;a href=&quot;#知乎类&quot; class=&quot;headerlink&quot; title=&quot;知乎类&quot;&gt;&lt;/a&gt;知乎类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;有哪些在实际 Android 项目中用到的设计模式 &lt;a href=&quot;https://www.zhihu.com/question/29575295&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/29575295&lt;/a&gt;&lt;/li&gt;
@@ -158,6 +162,8 @@
 &lt;li&gt;okhttp-utils &lt;a href=&quot;https://github.com/hongyangAndroid/okhttp-utils&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/hongyangAndroid/okhttp-utils&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;justwetools &lt;a href=&quot;https://github.com/lfkdsk/JustWeTools&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/lfkdsk/JustWeTools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/orhanobut/logger&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;强大的日志工具logger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hoang8f/android-flat-button&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hoang8f/android-flat-button&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/afollestad/material-dialogs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;afollestad/material-dialogs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;开源项目聚合类网站&quot;&gt;&lt;a href=&quot;#开源项目聚合类网站&quot; class=&quot;headerlink&quot; title=&quot;开源项目聚合类网站&quot;&gt;&lt;/a&gt;开源项目聚合类网站&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;GitHub 排名前 100 的安卓、iOS项目简介 &lt;a href=&quot;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0524/4297.html&lt;/a&gt;&lt;/li&gt;
@@ -170,6 +176,8 @@
 &lt;li&gt;jadx&lt;a href=&quot;https://github.com/skylot/jadx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/skylot/jadx&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Android酷炫实用的开源框架（UI框架）&lt;a href=&quot;http://www.androidchina.net/1992.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.androidchina.net/1992.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/Trinea/android-open-project&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/Trinea/android-open-project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.open-open.com/lib/view/open1436262653692.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;2015最流行的Android组件、工具、框架大全&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Trinea/android-common&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Trinea/android-common&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;网站论坛类&quot;&gt;&lt;a href=&quot;#网站论坛类&quot; class=&quot;headerlink&quot; title=&quot;网站论坛类&quot;&gt;&lt;/a&gt;网站论坛类&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;掘金&lt;a href=&quot;http://gold.xitu.io/welcome&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://gold.xitu.io/welcome&lt;/a&gt;&lt;/li&gt;
